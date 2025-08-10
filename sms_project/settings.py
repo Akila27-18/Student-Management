@@ -35,7 +35,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'sms_projecr.urls'
+ROOT_URLCONF = 'sms_project.urls'
 
 TEMPLATES = [
     {
@@ -53,7 +53,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'sma_project.wsgi.application'
+WSGI_APPLICATION = 'sms_project.wsgi.application'
 
 # Database
 # Use SQLite by default; for production consider PostgreSQL and use env vars for config
